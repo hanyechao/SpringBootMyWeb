@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>HelloWorld</h1>
+	<% for(article in articles){ %>
+	<table border="1">
+		<tr>
+			<td>${article.articleId}</td>
+			<td>${article.creatDatetime}</td>
+			<td>${article.modifyDatetime}</td>
+			<td>${article.articleTitle}</td>
+			<td>${article.articleContent}</td>
+		</tr>
+
+
+	</table>
+	<%}%>
+
+</body>
+</html>
